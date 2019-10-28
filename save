@@ -1,0 +1,14 @@
+
+                <ReactPlayer
+                    url='https://www.youtube.com/watch?v=3P6bEAlW-Vw'
+                    playing={true}
+                    loop={true}
+                    volume={0}
+                    muted={true}
+                    width='640px'
+                    height='360px'
+                    style={{ opacity: 1 }}
+                    progressInterval={1500}
+                    soundcloudConfig={false}
+                    controls={false}
+                />

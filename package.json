@@ -1,0 +1,48 @@
+{
+  "name": "thakargym",
+  "version": "1.0.0",
+  "description": "Thakar GYM Demo",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --inline --progress",
+    "dev": "webpack-dev-server --mode development --open --inline --progress",
+    "build": "webpack --mode production"
+  },
+  "keywords": [
+    "Thakar",
+    "GYM"
+  ],
+  "author": "BharatRJ",
+  "license": "ISC",
+  "dependencies": {
+    "css-loader": "^3.2.0",
+    "file-loader": "^4.2.0",
+    "friendly-errors-webpack-plugin": "^1.7.0",
+    "html-loader": "^0.5.5",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.12.0",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-hot-loader": "^4.12.15",
+    "react-loadable": "^5.5.0",
+    "react-player": "^1.13.0",
+    "react-router-dom": "^5.1.2",
+    "reactstrap": "^8.0.1",
+    "sass-loader": "^8.0.0",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "url-loader": "^2.2.0",
+    "webpack": "^4.41.1",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "html-webpack-plugin": "^3.2.0"
+  }
+}
