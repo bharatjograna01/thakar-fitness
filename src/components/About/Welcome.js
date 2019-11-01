@@ -7,17 +7,19 @@ class Welcome extends Component {
 
                 {/** bodyfit */}
                 <section class="ftco-about d-md-flex">
-                    <div class="one-half img" style={{ backgroundImage: ('images/about.jpg') }}>
-                        <a href="https://vimeo.com/45830194" class="icon popup-vimeo d-flex justify-content-center align-items-center">
-                            <span class="icon-play"></span></a>
+                    <div class="one-half img" style={{ backgroundImage: `url(${require(`Assets/image/bg/welcome.jpg`)})` }}>
+                        {/* <a href={require("Assets/image/gallery/VID-20191029-WA0042.mp4")} class="icon popup-vimeo d-flex justify-content-center align-items-center"> */}
+                        {/* <video ref="vidRef" src={require("Assets/image/gallery/VID-20191029-WA0042.mp4")} type="video/mp4"></video> */}
+                        <span class="zmdi zmdi-play"></span>
+                        {/* </a> */}
 
                     </div>
-                    <div class="one-half ftco-animate fadeInUp ftco-animated">
-                        <div class="heading-section ftco-animate fadeInUp ftco-animated">
-                            <h2 class="mb-4">Welcome to <span>BodyFit</span></h2>
+                    <div class="one-half">
+                        <div class="heading-section">
+                            <h2 class="mb-4">Welcome to <span>THAKAR-Fitness</span></h2>
                         </div>
                         <div>
-                            <p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their.</p>
+                            <p>We want to help you live a fit and healthy lifestyle! We do this by helping you find the most suitable equipment for your home gym, studio or commercial gym, keeping your budget, lifestyle and fitness goals in mind. We stock a wide range of gym equipment, with strength equipment, cardio, cross training and so much more. Our awesome team is always keen to help, so please call us to discuss your needs.</p>
                         </div>
                     </div>
                 </section>

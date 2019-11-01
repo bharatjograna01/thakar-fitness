@@ -6,7 +6,7 @@ class App extends Component {
 
         return (
             <div>
-                <Appwdgt />
+                <Appwdgt {...this.props} />
             </div>
         );
     }

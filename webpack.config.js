@@ -85,9 +85,9 @@ module.exports = {
                     "sass-loader"
                 ]
             },
-            //Loader To Load media files with 
+            //Loader To Load media files
             {
-                test: /\.(png|jpg|jpeg|gif)$/,
+                test: /\.(png|jpg|jpeg|gif|mp4)$/,
                 use: [{
                     loader: 'url-loader',
                     options: {
@@ -96,6 +96,7 @@ module.exports = {
                     }
                 }]
             },
+            //Loader To Load font files
             {
                 test: /\.(woff|woff2|eot|ttf|svg)$/,
                 loader: 'url-loader?limit=10000'

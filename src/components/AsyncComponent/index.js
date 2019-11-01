@@ -21,12 +21,6 @@ const AsyncAboutComponent = Loadable({
     loading: () => <JbPageLoader />
 });
 
-// // agency dashboard Trading
-// const AsyncContactComponent = Loadable({
-//     loader: () => import("Routes/contact"),
-//     loading: () => <JbPageLoader />
-// });
-
 // agency dashboard Trading
 const AsyncClassesComponent = Loadable({
     loader: () => import("Routes/classes"),
@@ -52,18 +46,17 @@ const AsyncTrainersComponent = Loadable({
 });
 
 // agency dashboard Trading
-// const AsyncUpdatesComponent = Loadable({
-//     loader: () => import("Routes/updates"),
-//     loading: () => <JbPageLoader />
-// });
+const AsyncAboutMeComponent = Loadable({
+    loader: () => import("../AboutMe"),
+    loading: () => <JbPageLoader />
+});
 
 export {
     AsyncHomeComponent,
     AsyncAboutComponent,
-    // AsyncContactComponent,
     AsyncClassesComponent,
     AsyncGalleryComponent,
     AsyncScheduleComponent,
     AsyncTrainersComponent,
-    // AsyncUpdatesComponent,
+    AsyncAboutMeComponent,
 };

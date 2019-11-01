@@ -2,11 +2,11 @@
  * Loader Page
  */
 import React from 'react';
-// import CircularProgress from '@material-ui/core/CircularProgress';
+import CircularProgress from '@material-ui/core/CircularProgress';
 
 const PageLoader = () => (
     <div className="page-loader d-flex justify-content-center mb-30">
-        {/* <CircularProgress /> */}
+        <CircularProgress />
     </div>
 );
 

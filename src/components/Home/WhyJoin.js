@@ -14,9 +14,12 @@ class WhyJoin extends Component {
                                     <p>Awesome feature</p>
                                     <h2>Why you Join with us</h2>
                                     <span>
-                                        Stars fowl deep she greater bearing to seed dont is let you're
-                                        appear first thing saying
-                                        it years abundantly fowl tree you shall also
+                                        One of the big advantages of joining a gym is the wide array of
+                                        equipment available, including cardio machines, strength machines,
+                                        weights, boxing kits and various functional training gear (TRX, fit
+                                        balls, resistance bands etc). It might be intimidating at first, but
+                                        you’ll find friendly experts on hand to help you use it all. Trust us
+                                        – it’s all a lot simpler than it looks!
                                     </span>
                                 </div>
                             </div>
@@ -28,24 +31,24 @@ class WhyJoin extends Component {
                                         <div class="col-lg-12">
                                             <div class="single_feature_item">
                                                 <div class="feature_item_icon">
-                                                    <span class="flaticon-footwear"></span>
+                                                    <span> <img width="100%" height="100%" src={require("Assets/image/icon/body.png")} alt="Body Build" /> </span>
                                                 </div>
-                                                <h3><a href="#">Qualified Instructor</a></h3>
+                                                <h3><a href="javascript:void(0)">Body Building</a></h3>
                                                 <p>
-                                                    Stars fowl deep she greater bearing to seed dont is let you're
-                                                    appear first thing
-                                                    saying it years abundantly fowl tree you shall
+                                                    we wil help you to progressive resistance exercise to control
+                                                    and develop your musculature for aesthetic purposes.
                                                 </p>
                                             </div>
                                             <div class="single_feature_item">
                                                 <div class="feature_item_icon">
-                                                    <span> <img src="img/icon/icon.svg" alt="icon" /> </span>
+                                                    <span> <img width="100%" height="100%" src={require("Assets/image/icon/zumba.png")} alt="Zumba" /> </span>
                                                 </div>
-                                                <h3><a href="#">fTons of Equipment</a></h3>
+                                                <h3><a href="javascript:void(0)">Zumba Dance</a></h3>
                                                 <p>
-                                                    Stars fowl deep she greater bearing to seed dont is let you're
-                                                    appear first thing
-                                                    saying it years abundantly fowl tree you shall
+                                                    Zumba is a "fun and effective" dance fitness class that provides
+                                                    "A total workout, combining all elements of fitness – cardio, muscle
+                                                    conditioning, balance and flexibility, boosted energy and a serious
+                                                    dose of awesome each time you leave class."
                                                 </p>
                                             </div>
                                         </div>
@@ -54,7 +57,7 @@ class WhyJoin extends Component {
                             </div>
                             <div class="col-lg-4">
                                 <div class="about_img">
-                                    <img src={require("Assets/image/about_bg.png")} alt="#" />
+                                    <img src={require("Assets/image/about_bg.png")} alt="Join Us" />
                                 </div>
                             </div>
                             <div class="col-lg-4">
@@ -63,24 +66,24 @@ class WhyJoin extends Component {
                                         <div class="col-lg-12">
                                             <div class="single_feature_item">
                                                 <div class="feature_item_icon">
-                                                    <span class="flaticon-gym-1"></span>
+                                                    <span> <img width="100%" height="100%" src={require("Assets/image/icon/cardio.png")} alt="Cardio" /> </span>
                                                 </div>
-                                                <h3> <a href="#"> Ralaxation &amp; Meditation</a></h3>
+                                                <h3> <a href="javascript:void(0)">Cardio Training</a></h3>
                                                 <p>
-                                                    Stars fowl deep she greater bearing to seed dont is let you're
-                                                    appear first thing
-                                                    saying it years abundantly fowl tree you shall
+                                                    Cardio exercise is any kind of aerobic activity that increases
+                                                    your heart rate for a sustained length of time. Ideally, you want
+                                                    to keep your heart rate moderately high and at a steady rate for at
+                                                    least 30 minutes per day. we have also cardio exercises.
                                                 </p>
                                             </div>
                                             <div class="single_feature_item">
                                                 <div class="feature_item_icon">
-                                                    <span class="flaticon-strong"></span>
+                                                    <span> <img width="100%" height="100%" src={require("Assets/image/icon/weight.png")} alt="Weight Lift" /> </span>
                                                 </div>
-                                                <h3><a href="">Happy Member</a></h3>
+                                                <h3><a href="javascript:void(0)">Weight Lifting</a></h3>
                                                 <p>
-                                                    Stars fowl deep she greater bearing to seed dont is let you're
-                                                    appear first thing
-                                                    saying it years abundantly fowl tree you shall
+                                                    Lifting weights can help you build muscle mass, that muscle
+                                                    mass will in turn help you lose fat mass.
                                                 </p>
                                             </div>
                                         </div>

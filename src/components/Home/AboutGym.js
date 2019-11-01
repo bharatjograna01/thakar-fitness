@@ -11,15 +11,70 @@ class AboutGym extends Component {
                         <div class="row align-items-center">
                             <div class="col-md-12 col-lg-5 mb-5 mb-lg-0">
                                 <h2 class="mb-3 text-uppercase">All About <strong class="text-black font-weight-bold">Our Gym</strong></h2>
-                                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque accusamus, rerum illo facilis reiciendis.</p>
-                                <p class="mb-4">Iste aut dolorem veritatis saepe nesciunt distinctio voluptas sapiente sunt perspiciatis autem minima, iure provident. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, quas.</p>
                                 <ul class="site-block-check">
-                                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing.</li>
-                                    <li>Nemo, voluptate? Voluptates odit, aperiam nostrum! Ipsa.</li>
-                                    <li>Itaque voluptatum ducimus aliquam, est fuga molestiae?</li>
-                                    <li>Accusamus porro at commodi delectus, nesciunt molestiae.</li>
+
+                                    <li>
+                                        Rights Of Admission Reserved
+                                    </li>
+
+                                    <li>
+                                        THAKAR Fitness is open to members of all
+                                        communities sgective Of their caste Or creed
+                                    </li>
+
+                                    <li>
+                                        THAKAR Fitness has the right to enforce rules and
+                                        regulations me to time and they are subject to change
+                                        according prevailing condition in the center. A notice
+                                        put up On notice board will be deemed to have been
+                                        served on members
+                                    </li>
+
+                                    <li>
+                                        Available for usage to members may be irH:reased/
+                                        sed as per circumstances/availabity
+                                    </li>
+
+                                    <li>
+                                        Time available for usage/training can be increase
+                                        decreased as per circumstances/availabllty
+                                    </li>
+
+                                    <li>
+                                        Outside footwear will not be allowed in the gym hall.
+                                        members are requested to carry their own towel and
+                                        drinking Water for hygienic reason.
+                                    </li>
+
+                                    <li>
+                                        Results Of the various training programs, classes
+                                        specialized programs vary form person to person.
+                                    </li>
+
+                                    <li>
+                                        Members should maintain compete silence in the gym
+                                        premisses.
+                                    </li>
+
+                                    <li>
+                                        Use of mobile phone inside Gym hall is strictly
+                                        prohibited and in the Other areas 01 Fitness
+                                        is should be kept in silent mode.
+                                    </li>
+
+                                    <li>
+                                        Members are not allowed to bring any child or animal'
+                                        bi etc, in the club.
+                                    </li>
+
+                                    <li>
+                                        Members are not allowed to bring and not to accom -
+                                        pany any person on the gym floor who is not a
+                                        member Of the gym.
+                                    </li>
+
                                 </ul>
-                                <p><a href="#" class="btn btn-primary pill px-4">Read More</a></p>
+                                {/* <p><a href="javascript:void(0)" class="btn btn-primary pill px-4">Read More</a></p> */}
                             </div>
                             <div class="col-md-12 col-lg-6 ml-auto">
                                 <img src={require("Assets/image/about.jpg")} alt="Image" class="img-fluid" />

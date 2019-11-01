@@ -5,7 +5,7 @@ class App extends Component {
     render() {
         return (
             <div>
-                <Appwdgt />
+                <Appwdgt {...this.props} />
             </div>
         );
     }

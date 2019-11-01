@@ -5,18 +5,16 @@
  */
 import React, { Component, Fragment } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-// import Appwdgt from 'Routes';
 
 // async components
 import {
     AsyncHomeComponent,
     AsyncAboutComponent,
-    // AsyncContactComponent,
     AsyncClassesComponent,
     AsyncGalleryComponent,
     AsyncScheduleComponent,
     AsyncTrainersComponent,
-    // AsyncUpdatesComponent,
+    AsyncAboutMeComponent,
 } from 'Components/AsyncComponent';
 
 class index extends Component {
@@ -24,17 +22,13 @@ class index extends Component {
 
         return (
             <Fragment>
-                {/* <Route path='/' component={Appwdgt} /> */}
-                {/* <Route path='/' component={AsyncAboutComponent} /> */}
-                {/* <Redirect from='/' to='/Home' /> */}
                 <Route exact path='/' component={AsyncHomeComponent} />
-                <Route path='/About' component={AsyncAboutComponent} />
-                <Route path='/Classes' component={AsyncClassesComponent} />
-                {/* <Route path='/Contact' component={AsyncContactComponent} /> */}
-                <Route path='/Gallery' component={AsyncGalleryComponent} />
-                <Route path='/Schedule' component={AsyncScheduleComponent} />
-                <Route path='/Trainers' component={AsyncTrainersComponent} />
-                {/* <Route path='/Updates' component={AsyncUpdatesComponent} /> */}
+                <Route exact path='/About' component={AsyncAboutComponent} />
+                <Route exact path='/Classes' component={AsyncClassesComponent} />
+                <Route exact path='/Gallery' component={AsyncGalleryComponent} />
+                <Route exact path='/Schedule' component={AsyncScheduleComponent} />
+                <Route exact path='/Trainers' component={AsyncTrainersComponent} />
+                <Route exact path='/AboutMe' component={AsyncAboutMeComponent} />
             </Fragment>
         );
     }

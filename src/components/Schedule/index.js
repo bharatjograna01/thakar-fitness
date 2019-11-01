@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Header from '../Header';
 import Footer from '../Footer';
+import Schedule from './Schedule';
 
 class index extends Component {
     render() {
@@ -8,7 +9,10 @@ class index extends Component {
             <div>
 
 
-                <Header />
+                <Header {...this.props} />
+
+
+                <Schedule />
 
 
                 <Footer />

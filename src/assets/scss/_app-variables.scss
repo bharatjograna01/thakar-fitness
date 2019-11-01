@@ -183,6 +183,28 @@ $coolactivesell-gradient:       linear-gradient(rgba(250,82,82,.15),rgba(250,82,
 
 $cooldesk-ourwebsite:               url('../../assets/image/becomememberbg.png');
 
+
+// $homepage-gradient:  linear-gradient(135deg, rgb(255, 255, 255), rgb(60, 116, 236) 60%, cyan);
+$homepage-gradient:  linear-gradient(105deg, rgb(255, 255, 255), rgb(255, 220, 103) 60%, rgb(93, 87, 87));
+$aboutpage-gradient:  linear-gradient(85deg, rgb(255, 255, 255), rgb(103, 126, 255) 45%, rgb(127, 127, 127));
+$pricepage-gradient:  linear-gradient(85deg, rgb(132, 151, 255), rgb(255, 255, 255) 70%, rgb(233, 159, 130));
+$trainerpage-gradient:  linear-gradient(145deg, rgb(0, 0, 0), rgb(127, 127, 127) 50%, rgb(255, 255, 255));
 .homepage{
-  background: $coolactivebuy-gradient;
+  background: $homepage-gradient;
+}
+.aboutpage{
+  background: $aboutpage-gradient;
+}
+.pricepage{
+  background: $pricepage-gradient;
+}
+.trainerpage{
+  background: $trainerpage-gradient;
+}
+.copyright{
+  font-size: 18px;
+  padding: 25px;
+  text-align: right;
+  a, b{
+  color: #000000;}
 }

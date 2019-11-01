@@ -12,7 +12,6 @@ class WhyChoose extends Component {
                             <div class="col-lg-6">
                                 <div class="section_tittle text-center">
                                     <h2>Why You Should Choose Us</h2>
-                                    <p>As you pour the first glass of your favorite Chianti or Chardonnay and settle into an intimate Friday evening.</p>
                                 </div>
                             </div>
                         </div>
@@ -20,29 +19,39 @@ class WhyChoose extends Component {
                             <div class="col-lg-3 col-sm-6">
                                 <div class="single_feature">
                                     <img src={require('Assets/image/feature_icon_1.png')} alt="#" />
-                                    <h4>Quality Training</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                                    <h4>Qualified Trainers</h4>
+                                    <p>
+                                        Trainer have a basic knowledge that is appropriate
+                                        to help members practice gym ball safely with high-quality exercise
+                                        to achieve the goal of the training.
+                                    </p>
                                 </div>
                             </div>
                             <div class="col-lg-3 col-sm-6">
                                 <div class="single_feature">
                                     <img src={require('Assets/image/feature_icon_2.png')} alt="#" />
                                     <h4>Flexible Timeframe</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                                    <p>
+                                        we provide Flexible time to our member.
+                                    </p>
                                 </div>
                             </div>
                             <div class="col-lg-3 col-sm-6">
                                 <div class="single_feature">
                                     <img src={require('Assets/image/feature_icon_3.png')} alt="#" />
-                                    <h4>Qualified Trainers</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                                    <h4>fTons of Equipment</h4>
+                                    <p>
+                                        we have wide range of Equipment to exercise every member.
+                                    </p>
                                 </div>
                             </div>
                             <div class="col-lg-3 col-sm-6">
                                 <div class="single_feature">
                                     <img src={require('Assets/image/feature_icon_4.png')} alt="#" />
                                     <h4>Affordable Price</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                                    <p>
+                                        Price is also Affordable so every member can afford a gym membership.
+                                    </p>
                                 </div>
                             </div>
                         </div>

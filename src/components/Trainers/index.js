@@ -6,10 +6,10 @@ import Trainers from './Trainers';
 class index extends Component {
     render() {
         return (
-            <div>
+            <div className="trainerpage">
 
 
-                <Header />
+                <Header {...this.props} />
 
 
                 <Trainers />

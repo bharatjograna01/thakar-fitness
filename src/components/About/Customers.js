@@ -13,16 +13,18 @@ class Customers extends Component {
                         <div class="row justify-content-center">
                             <div class="col-md-10">
                                 <div class="row">
-                                    <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate fadeInUp ftco-animated">
+                                    <div class="offset-3 col-md-6 col-lg-3 d-flex justify-content-center counter-wrap">
                                         <div class="block-18 text-center">
                                             <div class="text">
-                                                <div class="icon"><span class="flaticon-coffee-cup"></span></div>
-                                                <strong class="number" data-number="5000">5,000</strong>
+                                                <div class="icon">
+                                                    <span> <img width="50%" height="100%" src={require("Assets/image/icon/award.png")} alt="Time" /> </span>
+                                                </div>
+                                                <strong class="number" data-number="2000">2,000</strong>
                                                 <span>Happy Customers</span>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate fadeInUp ftco-animated">
+                                    {/* <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap">
                                         <div class="block-18 text-center">
                                             <div class="text">
                                                 <div class="icon"><span class="flaticon-coffee-cup"></span></div>
@@ -30,17 +32,19 @@ class Customers extends Component {
                                                 <span>Perfect Bodies</span>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate fadeInUp ftco-animated">
+                                    </div> */}
+                                    <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap">
                                         <div class="block-18 text-center">
                                             <div class="text">
-                                                <div class="icon"><span class="flaticon-coffee-cup"></span></div>
-                                                <strong class="number" data-number="570">570</strong>
-                                                <span>Working Hours</span>
+                                                <div class="icon">
+                                                    <span> <img width="50%" height="100%" src={require("Assets/image/icon/time.png")} alt="Time" /> </span>
+                                                </div>
+                                                <strong class="number" data-number="240">240</strong>
+                                                <span>Working Hours /Month</span>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate fadeInUp ftco-animated">
+                                    {/* <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap">
                                         <div class="block-18 text-center">
                                             <div class="text">
                                                 <div class="icon"><span class="flaticon-coffee-cup"></span></div>
@@ -48,7 +52,7 @@ class Customers extends Component {
                                                 <span>Success Stories</span>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </div>
