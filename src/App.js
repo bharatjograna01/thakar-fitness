@@ -16,11 +16,11 @@ const App = () => {
                     <Route path='/' component={AppWdgt} />
                 </Switch>
             </Router>
-            {/* <Router>
+            <Router>
                 <Switch>
-                    <Route path="/Bpanel" component={AppWdgt} />
+                    <Route path="/BharatRJ" component={AppWdgt} />
                 </Switch>
-            </Router> */}
+            </Router>
         </Fragment>
     );
 };

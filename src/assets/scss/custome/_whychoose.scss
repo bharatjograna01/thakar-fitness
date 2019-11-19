@@ -1,0 +1,47 @@
+
+h1, h2, h3, h4, h5, h6 {
+  color: #222;
+  font-family: "Anton", sans-serif;
+}
+
+h2 {
+  font-size: 44px;
+  line-height: 28px;
+  color: #222;
+  font-weight: 600;
+  line-height: 1.222;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.our_feature {
+    margin: 35px 0 35px 0;
+}
+
+.our_feature .single_feature h4 {
+    margin: 35px 0 15px;
+    text-align: center;
+}
+
+.our_feature .single_feature img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section_tittle {
+  margin-bottom: 45px;
+}
+
+.section_tittle h2 {
+  font-size: 48px;
+  color: #222;
+  line-height: 45px;
+  font-weight: 700;
+  position: relative;
+  position: relative;
+  margin-bottom: 25px;
+}

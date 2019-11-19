@@ -1,3 +1,8 @@
+/**
+ * Developed By: Bharat Jograna
+ * Created on: 03 Nov 2019
+ * Class Component: Cardio section of schedule page
+ */
 import React, { Component } from 'react';
 import { Collapse, Row, Col, CardBody, Card } from 'reactstrap';
 
@@ -19,14 +24,15 @@ class Cardio extends Component {
         return (
             <div>
 
+                {/** Cardio section of schedule page is starts from here */}
                 <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 pt-15">
                     <Card className="mb-10">
                         <a href="javascript:void(0)" onClick={this.toggle}>
                             <Row className="m-0">
-                                <Col lg={1} md={1} sm={1} xs={1} className="text-dark">
+                                <Col lg={1} md={1} sm={1} xs={2} className="text-dark">
                                     {<i className="zmdi zmdi-menu zmdi-hc-3x ml-10 "></i>}
                                 </Col>
-                                <Col lg={11} md={11} sm={11} xs={11} className="text-dark">
+                                <Col lg={11} md={11} sm={11} xs={10} className="text-dark">
                                     <h1>CARDIO</h1>
                                 </Col>
                             </Row>

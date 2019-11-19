@@ -1,0 +1,146 @@
+/**************** why join us css start ****************/
+@import url("https://fonts.googleapis.com/css?family=Anton|Oswald:300,400,500,600&display=swap");
+
+body {
+  font-family: "Oswald", sans-serif;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+}
+
+.about_us {
+  position: relative;
+  z-index: 1;
+}
+
+.about_us .amitated_icon_1 {
+  position: absolute;
+  left: 0%;
+  top: 35%;
+}
+
+.about_us .amitated_icon_2 {
+  position: absolute;
+  left: 14%;
+  top: 12%;
+}
+
+.about_us .amitated_icon_3 {
+  position: absolute;
+  left: 36%;
+  bottom: 40%;
+}
+
+.about_us .amitated_icon_4 {
+  position: absolute;
+  right: 13%;
+  top: 26%;
+}
+
+.about_us .amitated_icon_5 {
+  position: absolute;
+  right: 1%;
+  top: 5%;
+}
+
+.about_us .single_feature_item .feature_item_icon span {
+  background-image: -moz-linear-gradient(45deg, #fa0347 1%, #fc561c 99%);
+  background-image: -webkit-linear-gradient(45deg, #fa0347 1%, #fc561c 99%);
+  background-image: -ms-linear-gradient(45deg, #fa0347 1%, #fc561c 99%);
+}
+
+.about_us .single_feature_item {
+  margin-bottom: 60px;
+  padding: 3px;
+}
+
+.about_us .single_feature_item:last-child {
+  margin-bottom: 0px;
+}
+
+.about_us .single_feature_item .feature_item_icon {
+  position: relative;
+  z-index: 2;
+}
+
+.about_us .single_feature_item .feature_item_icon:after {
+  position: absolute;
+  content: "";
+  left: 0px;
+  top: -10px;
+  height: 65px;
+  width: 65px;
+  background-color: #f2f7f9;
+  z-index: -1;
+  border-radius: 15px;
+}
+
+.about_us .single_feature_item .feature_item_icon span {
+  top: 0;
+  height: 65px;
+  width: 65px;
+  display: inline-block;
+  color: #fff;
+  border-radius: 15% 15% 80% 15% / 15% 15% 30% 15%;
+  font-size: 35px;
+  text-align: center;
+  line-height: 65px;
+  margin-left: 12px;
+  margin-bottom: 30px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.about_us .single_feature_item .feature_item_icon span img {
+  margin-bottom: 14px;
+}
+
+.about_us .single_feature_item h3 {
+  font-size: 27px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.about_us .single_feature_item h3 a {
+  color: #2c3033;
+}
+
+.section_padding {
+  padding: 45px 0px;
+}
+
+.section_tittle {
+  margin-bottom: 45px;
+  text-align: center;
+}
+
+.section_tittle h2 {
+  font-size: 40px;
+  color: #2c3033;
+  line-height: 1.25;
+  font-weight: 700;
+  position: relative;
+  z-index: 1;
+  text-transform: uppercase;
+  margin-bottom: 13px;
+}
+
+.section_tittle p {
+  font-size: 16px;
+  margin-bottom: 23px;
+  font-weight: 600;
+  color: #fa0347;
+  text-transform: uppercase;
+  line-height: 13px;
+}
+
+.section_tittle span {
+  font-weight: 400;
+  color: #000000;
+  line-height: 1.857;
+  font-size: 14px;
+}
+
+img {
+  max-width: 100%;
+}

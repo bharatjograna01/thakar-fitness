@@ -1,11 +1,14 @@
+/**
+ * Developed By: Bharat Jograna
+ * Created on: 03 Nov 2019
+ * Class Component: aboute page
+ */
 import React, { Component } from 'react';
 import Header from '../Header';
 import Footer from '../Footer';
 import Customers from './Customers'
 import Welcome from './Welcome';
-// import Review from './Review';
 import Programm from './Programm';
-// import Service from './Service';
 
 class index extends Component {
     render() {
@@ -20,15 +23,6 @@ class index extends Component {
 
 
                 <Programm />
-
-
-                {/* <Service /> */}
-
-
-                {/* <Review /> */}
-
-
-                {/* <Photos /> */}
 
 
                 <Customers />

@@ -1,0 +1,71 @@
+
+
+.table {
+	width: 85%;
+}
+
+.table th {
+	font-weight: 500;
+}
+
+.table .thead-primary {
+	background: #e5be48;
+}
+
+.table .thead-primary tr th {
+	color: #000 !important;
+	border: 1px solid transparent !important;
+}
+
+.table tbody tr td {
+	text-align: center !important;
+	vertical-align: middle;
+}
+
+.table tbody tr td h3 {
+	font-size: 16px;
+}
+
+.table tbody tr td h3 a {
+	color: rgba(0, 0, 0, 0.8);
+}
+
+.table tbody tr td .at {
+	display: block;
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.table tbody tr td .time {
+	color: rgba(255, 255, 255, 0.8);
+}
+
+.table tbody tr td .trainer {
+	color: #fff;
+}
+
+.table tbody tr td.color-1 {
+	background: #7acfdf;
+}
+
+.table tbody tr td.color-2 {
+	background: #26baee;
+}
+
+.table tbody tr td.color-3 {
+	background: #6098cc;
+}
+
+.table tbody tr td.color-4 {
+	background: #12e6c8;
+}
+
+.table tbody tr td.color-5 {
+	background: #0283da;
+}
+
+.table {
+	td,
+	tr {
+		border: 2px solid #000000 !important;
+	}
+}

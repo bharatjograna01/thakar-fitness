@@ -1,3 +1,8 @@
+/**
+ * Developed By: Bharat Jograna
+ * Created on: 03 Nov 2019
+ * Class Component: Header of project
+ */
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
@@ -17,31 +22,27 @@ class Header extends Component {
         const photo = this.getImage(path.replace('/', '').toLowerCase())
 
         return (
-            <div>
+            <header>
 
-                {/** bodyFit */}
-                <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
-                    <div class="container row">
-                        <a class="navbar-brand" href="/">THAKAR<small>Fitness</small></a>
-                        {/* <a class="navbar-brand" href="/"><img width='100%' src={require(`Assets/image/icon/logofav.png`)} alt="home" /></a> */}
-                        {/* <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="oi oi-menu"></span> Menu
-	                    </button> */}
-                        <div class="navbar-collapse" id="ftco-nav">
-                            <ul class="navbar-nav ml-auto">
-                                <li class={path === "/" ? "d-none" : "" + "nav-item"}><Link to="/" class="nav-link">Home</Link></li>
-                                <li class={path === "/About" ? "d-none" : "" + "nav-item"}><Link to="/About" class="nav-link">About</Link></li>
-                                <li class={path === "/Classes" ? "d-none" : "" + "nav-item"}><Link to="/Classes" class="nav-link">Prices</Link></li>
-                                {/* <li class={path === "/Gallery" ? "d-none" : "" + "nav-item"}><Link to="Gallery" class="nav-link">Gallery</Link></li> */}
-                                <li class={path === "/Schedule" ? "d-none" : "" + "nav-item"}><Link to="/Schedule" class="nav-link">Schedule</Link></li>
-                                <li class={path === "/Trainers" ? "d-none" : "" + "nav-item"}><Link to="/Trainers" class="nav-link">Trainer</Link></li>
+                {/** Header section is starts from here */}
+                <nav className="navbar navbar-expand-lg ftco-navbar-light">
+                    <div className="container row">
+                        <a className="navbar-brand" href="/">THAKAR<small>Fitness</small></a>
+                        <div className="navbar-collapse" id="ftco-nav">
+                            <ul className="navbar-nav ml-auto">
+                                <li className={path === "/" ? "d-none" : "" + "nav-item"}><Link to="/" className="nav-link">Home</Link></li>
+                                <li className={path === "/About" ? "d-none" : "" + "nav-item"}><Link to="/About" className="nav-link">About</Link></li>
+                                <li className={path === "/Classes" ? "d-none" : "" + "nav-item"}><Link to="/Classes" className="nav-link">Prices</Link></li>
+                                {/* <li className={path === "/Gallery" ? "d-none" : "" + "nav-item"}><Link to="Gallery" className="nav-link">Gallery</Link></li> */}
+                                <li className={path === "/Schedule" ? "d-none" : "" + "nav-item"}><Link to="/Schedule" className="nav-link">Schedule</Link></li>
+                                <li className={path === "/Trainers" ? "d-none" : "" + "nav-item"}><Link to="/Trainers" className="nav-link">Trainer</Link></li>
                             </ul>
                         </div>
                     </div>
                 </nav>
                 <img width='100%' src={photo} alt="home" />
-                <Link to="/">Click Me!</Link>
-            </div>
+
+            </header>
         );
     }
 }

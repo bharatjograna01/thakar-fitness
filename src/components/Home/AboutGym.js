@@ -1,3 +1,8 @@
+/**
+ * Developed By: Bharat Jograna
+ * Created on: 03 Nov 2019
+ * Class Component: AboutGym section of home page
+ */
 import React, { Component } from 'react';
 
 class AboutGym extends Component {
@@ -5,11 +10,11 @@ class AboutGym extends Component {
         return (
             <div>
 
-                {/** IronFirst */}
+                {/** Instruction section of home page is starts from here */}
                 <div class="site-section">
                     <div class="container">
                         <div class="row align-items-center">
-                            <div class="col-md-12 col-lg-5 mb-5 mb-lg-0">
+                            <div class="col-lg-5 col-12">
                                 <h2 class="mb-3 text-uppercase">All About <strong class="text-black font-weight-bold">Our Gym</strong></h2>
                                 <ul class="site-block-check">
 
@@ -74,9 +79,8 @@ class AboutGym extends Component {
                                     </li>
 
                                 </ul>
-                                {/* <p><a href="javascript:void(0)" class="btn btn-primary pill px-4">Read More</a></p> */}
                             </div>
-                            <div class="col-md-12 col-lg-6 ml-auto">
+                            <div class="col-lg-6 col-12 ml-auto">
                                 <img src={require("Assets/image/about.jpg")} alt="Image" class="img-fluid" />
                             </div>
                         </div>

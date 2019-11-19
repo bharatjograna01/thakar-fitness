@@ -1,3 +1,8 @@
+/**
+ * Developed By: Bharat Jograna
+ * Created on: 03 Nov 2019
+ * Class Component: home page
+ */
 import React, { Component } from 'react';
 import Header from '../Header';
 import Footer from '../Footer';

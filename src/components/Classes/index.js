@@ -1,3 +1,8 @@
+/**
+ * Developed By: Bharat Jograna
+ * Created on: 03 Nov 2019
+ * Class Component: classes page
+ */
 import React, { Component } from 'react';
 import Header from '../Header';
 import Footer from '../Footer';
@@ -12,14 +17,15 @@ class index extends Component {
 
                 <Header {...this.props} />
 
-                <section class="ftco-section ftco-cart">
+
+                <section class="ftco-section">
                     <div class="container">
                         <div class="row">
 
                             <Membership />
 
-
                             <Training />
+
                         </div>
                     </div>
                 </section>

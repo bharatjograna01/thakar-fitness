@@ -5,7 +5,7 @@ import React from 'react';
 import CircularProgress from '@material-ui/core/CircularProgress';
 
 const PageLoader = () => (
-    <div className="page-loader d-flex justify-content-center mb-30">
+    <div className="d-flex justify-content-center" style={{ marginTop: (screen.height) / 3 }} >
         <CircularProgress />
     </div>
 );

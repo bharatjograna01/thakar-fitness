@@ -1,0 +1,79 @@
+
+
+.ftco-counter {
+	padding: 7em 0;
+	background-position: center center !important;
+}
+
+.ftco-counter .icon {
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
+	position: relative;
+	margin-bottom: 20px;
+	background: #cccccc;
+	z-index: 0;
+}
+
+.ftco-counter .icon:after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	content: '';
+	bordeR: 1px solid #e5ce48;
+	z-index: -1;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.ftco-counter .icon span {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	color: #e5ce48;
+}
+
+.ftco-counter .text strong.number {
+	font-weight: 500;
+	font-size: 50px;
+	color: #e5ce48;
+}
+
+.ftco-counter .text span {
+	font-weight: 400;
+	font-size: 14px;
+}
+
+.ftco-counter .text:hover .icon span,
+.ftco-counter .text:focus .icon span {
+	color: #000;
+}
+
+.ftco-counter .text:hover .icon:after,
+.ftco-counter .text:focus .icon:after {
+	-webkit-transform: rotate(135deg);
+	-ms-transform: rotate(135deg);
+	transform: rotate(135deg);
+	background: #e5ce48;
+}
+
+.block-18 .icon>span {
+	font-size: 40px;
+}
+
+.block-18 .text strong {
+	font-size: 30px;
+}
+
+.block-18 .text span {
+	display: block;
+}

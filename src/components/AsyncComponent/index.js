@@ -47,7 +47,13 @@ const AsyncTrainersComponent = Loadable({
 
 // agency dashboard Trading
 const AsyncAboutMeComponent = Loadable({
-    loader: () => import("../AboutMe"),
+    loader: () => import("Routes/AboutMe"),
+    loading: () => <JbPageLoader />
+});
+
+// agency dashboard Trading
+const AsyncNotFoundComponent = Loadable({
+    loader: () => import("Routes/NotFound"),
     loading: () => <JbPageLoader />
 });
 
@@ -59,4 +65,5 @@ export {
     AsyncScheduleComponent,
     AsyncTrainersComponent,
     AsyncAboutMeComponent,
+    AsyncNotFoundComponent,
 };

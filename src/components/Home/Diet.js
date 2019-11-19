@@ -1,3 +1,8 @@
+/**
+ * Developed By: Bharat Jograna
+ * Created on: 03 Nov 2019
+ * Class Component: Diet section of home page
+ */
 import React, { Component } from 'react';
 
 class Diet extends Component {
@@ -5,18 +10,18 @@ class Diet extends Component {
         return (
             <div>
 
-                {/** CrossFit */}
-                <section class="lifestyle-section spad">
+                {/** Diet section of home page is starts from here */}
+                <section>
                     <div class="container">
                         <div class="row">
-                            <div class="col-lg-6">
-                                <div class="lifestyle-img">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                                <div>
                                     <img src={require("Assets/image/lifestyle.jpg")} alt="lifestyle And Diet" />
                                 </div>
                             </div>
-                            <div class="col-lg-6">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                                 <div class="lifestyle-text">
-                                    <div class="section-title">
+                                    <div>
                                         <h2>Lifestyle &amp; Diet</h2>
                                         <p>
                                             Combining good nutrition with physical activity can lead to a healthier lifestyle. Give your

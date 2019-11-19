@@ -7,7 +7,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 
+// Save a reference to the root element for reuse
+const rootEl = document.getElementById("root");
+
 ReactDOM.render(
     <App />,
-    document.getElementById('root')
+    rootEl
 );

@@ -1,0 +1,128 @@
+
+
+.ftco-footer {
+	font-size: 16px;
+}
+
+.ftco-footer .ftco-footer-widget h2 {
+	font-weight: normal;
+	color: rgb(0, 0, 0);
+	font-size: 32px;
+	font-weight: 400;
+	position: relative;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.ftco-footer .ftco-footer-widget ul li a span {
+	color: rgb(0, 0, 0);
+}
+
+.ftco-footer p {
+	color: #000000
+}
+
+.ftco-footer a {
+	color: #000000
+}
+
+.ftco-footer .ftco-heading-2 {
+	font-size: 17px;
+	font-weight: 400;
+	color: #000;
+}
+
+.ftco-footer-social li {
+	list-style: none;
+	margin: 0 10px 0 0;
+	display: inline-block;
+}
+
+.ftco-footer-social li a {
+	height: 50px;
+	width: 50px;
+	display: block;
+	float: left;
+	background: rgba(255, 255, 255, 0.05);
+	border-radius: 50%;
+	position: relative;
+}
+
+.ftco-footer-social li a span {
+	position: absolute;
+	font-size: 26px;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.ftco-section .ftco-primary-title {
+	margin-top: 0;
+	margin-bottom: 30px;
+}
+
+.about-author .desc h3 {
+	font-size: 24px;
+}
+
+.ftco-section {
+	padding: 3em 0 0 0;
+	position: relative;
+}
+
+.hero-wrap,
+.img,
+.blog-img,
+.user-img {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.ftco-section .ftco-sub-title {
+	font-size: 16px;
+	text-transform: uppercase;
+	letter-spacing: .5em;
+	color: #d4d4d4;
+	font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	font-weight: 300;
+}
+
+.block-23 ul {
+	padding: 0;
+}
+
+.block-23 ul li,
+.block-23 ul li>a {
+	display: table;
+	line-height: 1.5;
+	margin-bottom: 15px;
+}
+
+.block-23 ul li span {
+	color: #000000
+}
+
+.block-23 ul li .icon,
+.block-23 ul li .text {
+	display: table-cell;
+	vertical-align: top;
+}
+
+.block-23 ul li .icon {
+	width: 40px;
+	font-size: 18px;
+	padding-top: 2px;
+	color: white;
+}
+
+.copyright {
+	font-size: 18px;
+	padding: 10px 10px 10px 0;
+	text-align: right;
+	a {
+		color: #000000;
+	}
+}

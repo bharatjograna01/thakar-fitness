@@ -6,53 +6,29 @@ class Customers extends Component {
             <div>
 
                 {/** BodyFit */}
-                {/* <section class="ftco-counter ftco-bg-dark img" id="section-counter" style="background-image: url(&quot;images/bg_5.jpg&quot;); background-position: 50% -174.85px;" data-stellar-background-ratio="0.5"> */}
-                <section class="ftco-counter img" id="section-counter">
-                    <div class="overlay"></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-md-10">
-                                <div class="row">
-                                    <div class="offset-3 col-md-6 col-lg-3 d-flex justify-content-center counter-wrap">
-                                        <div class="block-18 text-center">
-                                            <div class="text">
-                                                <div class="icon">
-                                                    <span> <img width="50%" height="100%" src={require("Assets/image/icon/award.png")} alt="Time" /> </span>
-                                                </div>
-                                                <strong class="number" data-number="2000">2,000</strong>
-                                                <span>Happy Customers</span>
-                                            </div>
+                <section className="ftco-counter">
+                    <div className="container">
+                        <div className="row">
+                            <div className="offset-lg-3 col-lg-3 col-md-6 col-sm-6 col-12">
+                                <div className="block-18 text-center">
+                                    <div className="text">
+                                        <div className="icon">
+                                            <span> <img width="50%" height="100%" src={require("Assets/image/icon/award.png")} alt="Time" /> </span>
                                         </div>
+                                        <strong className="number" data-number="2000">2,000</strong>
+                                        <span>Happy Customers</span>
                                     </div>
-                                    {/* <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap">
-                                        <div class="block-18 text-center">
-                                            <div class="text">
-                                                <div class="icon"><span class="flaticon-coffee-cup"></span></div>
-                                                <strong class="number" data-number="4560">4,560</strong>
-                                                <span>Perfect Bodies</span>
-                                            </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-3 col-md-6 col-sm-6 col-12">
+                                <div className="block-18 text-center">
+                                    <div className="text">
+                                        <div className="icon">
+                                            <span> <img width="50%" height="100%" src={require("Assets/image/icon/time.png")} alt="Time" /> </span>
                                         </div>
-                                    </div> */}
-                                    <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap">
-                                        <div class="block-18 text-center">
-                                            <div class="text">
-                                                <div class="icon">
-                                                    <span> <img width="50%" height="100%" src={require("Assets/image/icon/time.png")} alt="Time" /> </span>
-                                                </div>
-                                                <strong class="number" data-number="240">240</strong>
-                                                <span>Working Hours /Month</span>
-                                            </div>
-                                        </div>
+                                        <strong className="number" data-number="240">240</strong>
+                                        <span>Working Hours /Month</span>
                                     </div>
-                                    {/* <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap">
-                                        <div class="block-18 text-center">
-                                            <div class="text">
-                                                <div class="icon"><span class="flaticon-coffee-cup"></span></div>
-                                                <strong class="number" data-number="900">900</strong>
-                                                <span>Success Stories</span>
-                                            </div>
-                                        </div>
-                                    </div> */}
                                 </div>
                             </div>
                         </div>

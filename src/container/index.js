@@ -15,21 +15,24 @@ import {
     AsyncScheduleComponent,
     AsyncTrainersComponent,
     AsyncAboutMeComponent,
+    AsyncNotFoundComponent,
 } from 'Components/AsyncComponent';
 
 class index extends Component {
     render() {
-
         return (
-            <Fragment>
-                <Route exact path='/' component={AsyncHomeComponent} />
-                <Route exact path='/About' component={AsyncAboutComponent} />
-                <Route exact path='/Classes' component={AsyncClassesComponent} />
-                <Route exact path='/Gallery' component={AsyncGalleryComponent} />
-                <Route exact path='/Schedule' component={AsyncScheduleComponent} />
-                <Route exact path='/Trainers' component={AsyncTrainersComponent} />
-                <Route exact path='/AboutMe' component={AsyncAboutMeComponent} />
-            </Fragment>
+            <div style={{ overflow: 'hidden' }}>
+                <Switch>
+                    <Route path='/' exact component={AsyncHomeComponent} />
+                    <Route path='/About' component={AsyncAboutComponent} />
+                    <Route path='/Classes' component={AsyncClassesComponent} />
+                    <Route path='/Gallery' component={AsyncGalleryComponent} />
+                    <Route path='/Schedule' component={AsyncScheduleComponent} />
+                    <Route path='/Trainers' component={AsyncTrainersComponent} />
+                    <Route path='/AboutMe' component={AsyncAboutMeComponent} />
+                    <Route component={AsyncNotFoundComponent} />
+                </Switch>
+            </div>
         );
     }
 }

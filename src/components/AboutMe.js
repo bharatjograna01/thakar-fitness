@@ -1,43 +1,60 @@
+/**
+ * Developed By: Bharat Jograna
+ * Created on: 03 Nov 2019
+ * Class Component: app to route project in aboutMe page
+ */
 import React, { Component } from 'react';
-import Header from './Header';
+import { Link } from 'react-router-dom';
 import Footer from './Footer';
 
 class AboutMe extends Component {
     render() {
+        const path = this.props.location.pathname;
+
         return (
             <div>
 
+                <header>
 
-                <Header {...this.props} />
+                    {/** Header section is starts from here */}
+                    <nav className="navbar navbar-expand-lg mb-5">
+                        <div className="container row">
+                            <a className="navbar-brand" href="/">THAKAR<small>Fitness</small></a>
+                            <div className="navbar-collapse" id="ftco-nav">
+                                <ul className="navbar-nav ml-auto">
+                                    <li className={path === "/" ? "d-none" : "" + "nav-item"}><Link to="/" className="nav-link">Home</Link></li>
+                                    <li className={path === "/About" ? "d-none" : "" + "nav-item"}><Link to="/About" className="nav-link">About</Link></li>
+                                    <li className={path === "/Classes" ? "d-none" : "" + "nav-item"}><Link to="/Classes" className="nav-link">Prices</Link></li>
+                                    <li className={path === "/Schedule" ? "d-none" : "" + "nav-item"}><Link to="/Schedule" className="nav-link">Schedule</Link></li>
+                                    <li className={path === "/Trainers" ? "d-none" : "" + "nav-item"}><Link to="/Trainers" className="nav-link">Trainer</Link></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
 
+                </header>
 
                 <section>
                     <div class="container">
-                        <div class="offset-3 col-7">
-                            <div class="d-flex">
-                                <div class="coach d-sm-flex align-items-stretch">
-                                    <div class="img mr-30" style={{ backgroundImage: `url(${require(`Assets/image/trainer-1.jpg`)})`, width: "50%", height: "100%" }}></div>
-                                    <div class="text py-4 px-5">
-                                        <span class="subheading">Head Coach</span>
-                                        <h3><span>Bhavesh visave</span></h3>
-                                        <li>IFSA sertified</li>
-                                        <li>Mr. South Gujrat 2016-17(2nd place)</li>
-                                        <li>Mr. Gujrat 2016-17(2nd place)</li>
-                                        <li>Mr. South Gujrat 2017-18(2nd place)</li>
-                                        <li>Mr. Gujrat 2017-18(2nd place)</li>
-                                        <li>Fit Factor India 2018(overall india top 10)</li>
-                                        <li>Boss Classic 2019(2nd place)</li>
-                                        {/* <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p> */}
-                                        <ul class="ftco-social-media d-flex mt-4">
-                                            <li><a href="javascript:void(0)" class="mr-2 d-flex justify-content-center align-items-center"><span class="zmdi zmdi-twitter"></span></a></li>
-                                            <li><a href="javascript:void(0)" class="mr-2 d-flex justify-content-center align-items-center"><span class="zmdi zmdi-facebook"></span></a></li>
-                                            <li><a href="javascript:void(0)" class="mr-2 d-flex justify-content-center align-items-center"><span class="zmdi zmdi-instagram"></span></a></li>
-                                        </ul>
-                                        <p></p>
-                                    </div>
-                                </div>
+                        <div className="row mt-5 mb-5">
+                            <div className="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+                                <h1>Bharat Jograna</h1>
+                                <h1>Junior Software Developer</h1>
+                                <a href="http://jbspl.com/" target="_blank"><h1>at Joshi Biz Tech</h1></a>
+                                <h1>B.E I.T</h1>
+                                <h1>from Gujrat Technological University</h1>
+                                <h1>GyanManjari Institute Of Technology</h1>
+                                <h1>at Bvn, Guj, India.</h1>
+                            </div>
+                            <div className="col-lg-5 col-md-5 col-sm-12 col-xs-12 p-1 m-0">
+                                <img
+                                    style={{ width: '100%', height: 'auto' }}
+                                    src=''
+                                    alt="Mission"
+                                />
                             </div>
                         </div>
+
                     </div>
                 </section>
 

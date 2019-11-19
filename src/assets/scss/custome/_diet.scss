@@ -1,0 +1,63 @@
+
+/********** diet css here ***********/
+.lifestyle-text{
+    margin-top: 140px;
+}
+
+/********** diet css here ***********/
+
+/********** about gym css here ***********/
+.site-section {
+  padding: 3em 0;
+  h2{
+      text-align: center;
+  }
+}
+
+/********** about gym css here ***********/
+
+/********** become member css here ***********/
+.become_member {
+  background-image:$cooldesk-ourwebsite;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  color: #fff;
+}
+
+.become_member h2 {
+  font-size: 48px;
+  color: #fff;
+}
+
+.become_member p {
+  font-size: 16px;
+  margin: 13px 0 43px;
+}
+
+.btn_1 {
+  display: inline-block;
+  padding: 11.5px 33px;
+  border-radius: 50px;
+  color: #fff;
+  transition: 0.5s;
+  text-transform: uppercase;
+}
+
+.submit_btn, .btn_1 {
+  background-image: linear-gradient(to right, #fc561c 1%, #fa0347 50%, #fc561c 100%);
+  background-size: 200% auto;
+}
+
+/********** become member css here ***********/
+
+/********** photos css here ***********/
+
+.ftco-about {
+  width: 100%;
+  padding: 30px 15px; }
+
+/********** photos css here ***********/
